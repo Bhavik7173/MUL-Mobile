@@ -1,12 +1,16 @@
 // src/config/env.js
-// Update BACKEND_URL to your deployed FastAPI server address
-// For local development: use your computer's IP address (not localhost)
-// Example: http://192.168.1.10:8000  (find your IP with: ipconfig / ifconfig)
-// For production: https://your-api.railway.app
+// 
+// FOR LOCAL DEVELOPMENT:
+//   Set to your computer's local IP (find with: ipconfig on Windows)
+//   Example: http://192.168.178.72:8000
+//
+// FOR PRODUCTION (after Railway deploy):
+//   Set to your Railway URL
+//   Example: https://mul-salary-backend.up.railway.app
 
 export const ENV = {
-  BACKEND_URL: 'http://192.168.178.72:8000', // <-- Change this to your FastAPI server IP
-  API_BASE: 'http://192.168.178.72:8000/api',
+  BACKEND_URL: 'https://mul-salary-backend.up.railway.app', // <-- Update after Railway deploy
+  API_BASE: 'https://mul-salary-backend.up.railway.app/api',
   APP_NAME: 'MUL Salary',
   VERSION: '1.0.0',
 };
