@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MUL Salary",
+    "slug": "mul-salary-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "sdkVersion": "54.0.0",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mul.salarytracker"
+    },
+    "android": {
+      "package": "com.mul.salarytracker"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "mul-salary"
+  }
+}
